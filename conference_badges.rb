@@ -12,3 +12,7 @@ def assign_rooms( names )
   names.each_with_index{ |name, index| new_array << "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
   new_array
 end
+
+def printer
+  
+end
