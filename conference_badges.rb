@@ -4,5 +4,5 @@ def badge_maker( name )
 end
 
 def batch_badge_creator( names )
-  names.collect{ |name| badge_maker( name )  }
+  names.collect{ |name| badge_maker( name ) }
 end
